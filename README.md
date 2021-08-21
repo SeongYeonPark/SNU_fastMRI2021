@@ -17,6 +17,6 @@ python3 leaderboard_eval.py
 ## Aditional notes
 train.py takes ~15 hours (for 35 epochs) (on NVIDIA GeForce RTX 3090) - it will make weight checkpoints for the model
 
-evaluate.py will create reconstructed images for data in 'image_Leaderboard'
+evaluate.py will create reconstructed images for data in 'image_Leaderboard', using the checkpoint that had minimum validation loss
 
-leaderboard_eval.py will compute the average SSIM for your reconstructed images
+leaderboard_eval.py will compute the average SSIM for your reconstructed images created by evaluate.py
