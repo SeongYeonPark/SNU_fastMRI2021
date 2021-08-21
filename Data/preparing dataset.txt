@@ -1,3 +1,3 @@
-each h5py file should contain 3 keys: 'image_input' 'image_grappa', 'image_label'
+each h5py file should contain 3 keys: 'image_input' 'image_grappa' 'image_label'
 split your data into train/validation/test set
 put each in Data/train, Data/val, /Data/image_Leaderboard
