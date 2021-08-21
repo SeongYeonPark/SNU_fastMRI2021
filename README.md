@@ -8,7 +8,6 @@ Repository for source code used in SNU fastMRI challenge 2021.
 ```bash
 cd Code
 
-```python
 python3 train.py
 python3 evaluate.py
 python3 leaderboard_eval.py
