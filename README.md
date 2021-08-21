@@ -2,7 +2,7 @@
 
 Repository for source code used in SNU fastMRI challenge 2021.
 
-(Using undersampled MRI data (image domain) to reconstruct original image)
+(Using undersampled/aliased MRI image and its GRAPPA reconstructed image to reconstruct the ground truth fully sampled image)
 
 ## Usage
 
